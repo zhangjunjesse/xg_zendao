@@ -1,0 +1,8 @@
+# 复制成 config.yaml 后填自己的账号。config.yaml 已在 .gitignore 里，不会被提交。
+#
+# 🔴 用你自己的禅道账号，不要共用别人的：
+#    禅道的操作会记在账号名下，共用账号出了事查不清是谁做的。
+zentao:
+  ZENTAO_BASE_URL: http://10.10.10.13/zentao
+  ZENTAO_ACCOUNT: your_account
+  ZENTAO_PASSWORD: your_password
