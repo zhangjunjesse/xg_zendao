@@ -3,6 +3,7 @@
 # 🔴 用你自己的禅道账号，不要共用别人的：
 #    禅道的操作会记在账号名下，共用账号出了事查不清是谁做的。
 zentao:
-  ZENTAO_BASE_URL: http://10.10.10.13/zentao
+  # 填你们内网禅道的地址，形如 http://<host>/zentao（末尾不带斜杠）
+  ZENTAO_BASE_URL: http://your-zentao-host/zentao
   ZENTAO_ACCOUNT: your_account
   ZENTAO_PASSWORD: your_password

@@ -5,7 +5,8 @@ Bug、需求、产品、项目，并能排查「某人看不到某个产品」�
 
 配套一个可直接调用的 Python 客户端，人也能用。
 
-> ⚠️ **内部仓库，请勿转为公开。** 本仓库含内网地址、禅道版本、权限模型细节。
+> ⚠️ **本仓库不含任何凭证，也不写死内网地址** —— 地址与账号一律由使用者本地配置。
+> 提 issue / PR 时请勿粘贴内网地址、账号密码、或包含真实数据的截图。
 
 ## 这个技能解决什么
 
@@ -43,7 +44,7 @@ cp config.example.yaml config.yaml
 **方式 B：环境变量**
 
 ```bash
-export ZENTAO_BASE_URL=http://10.10.10.13/zentao
+export ZENTAO_BASE_URL=http://your-zentao-host/zentao   # 内网禅道地址，问同事要
 export ZENTAO_ACCOUNT=your_account
 export ZENTAO_PASSWORD=your_password
 ```
@@ -52,7 +53,7 @@ export ZENTAO_PASSWORD=your_password
 
 ```yaml
 refs:
-  ZENTAO_BASE_URL: http://10.10.10.13/zentao
+  ZENTAO_BASE_URL: http://your-zentao-host/zentao
   ZENTAO_ACCOUNT: your_account
   ZENTAO_PASSWORD: your_password
 ```
